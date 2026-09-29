@@ -5,7 +5,7 @@ import {
   Download,
 } from "lucide-react";
 import "./App.css";
-import profilePic from "./assets/profile.jpeg";
+
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -143,9 +143,9 @@ function App() {
 
             <div className="profile-circle">
   <img
-    src={profilePic}
-    alt="Priyesh Bohra"
-  />
+  src="/profile.jpeg"
+  alt="Priyesh Bohra"
+/>
 </div>
               <div className="floating-card card-one">
                 <span>React</span>
